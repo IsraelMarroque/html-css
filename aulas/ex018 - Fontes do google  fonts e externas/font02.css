@@ -1,0 +1,28 @@
+@charset "UTF8";
+@font-face {
+    font-family: 'estilizada';
+    src: url(estilizada.ttf) format(truetype);
+    
+    /* Tipos de fomart()
+        - opentype (otf)
+        - truetype (ttf)
+        - embedded-opentype 
+        - truetype-aat (Apple Advanced Typography)
+        - svg
+    */
+}
+
+* {
+    padding: 0px;
+    margin: 0px;
+}
+
+body {
+    font-family: 'estilizada', Helvetica, sans-serif;
+    padding: 10px 10px;
+}
+
+h1 {
+    font-family: 'estilizada', Times, serif;
+    font-size: 3em;
+}

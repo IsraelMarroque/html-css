@@ -1,0 +1,35 @@
+@charset "UTF-8";
+
+* {
+    padding: 0px;
+    margin: 0px;
+}
+
+body {
+    padding: 10px;
+    margin: 10px;
+}
+
+p {
+    margin-top: 50px;
+}
+
+a {
+    border-width: 10px;
+    border-style:  groove;
+    border-color: red;
+    padding: 10px;
+}
+
+h1 {
+    background-color: lightgray;
+    height: 300px;
+    width: 300px;
+
+    border: 10px solid darkgray;
+
+    margin: 20px auto 20px auto;
+
+    outline: 5px dashed ;
+
+}

@@ -1,0 +1,28 @@
+@charset "UTF-8";
+
+* {
+    padding: 0px;
+    margin: 0px;
+}
+
+body {
+    font: normal, 1em, Verdana, serif;
+    text-align: left;
+    padding: 10px;
+    margin: 10px;
+}
+
+h1 {
+    text-align: center;
+}
+
+h2 {
+    text-align: right;
+    margin-top: 50px;
+    margin-bottom: 20px;
+}
+
+p {
+    text-align: justify;
+    text-indent: 15px;
+}

@@ -1,0 +1,211 @@
+@charset "UTF-8";
+@import url('https://fonts.googleapis.com/css2?family=Libre+Baskerville:ital,wght@0,400;0,700;1,400&display=swap');
+@font-face {
+    font-family: 'IDroid';
+    src: url(fontes/IDroid.otf) format(opentype);  
+}
+
+* {
+    padding: 0px;
+    margin: 0px;
+    box-sizing: border-box;
+}
+
+img {
+    width: 100%;
+}
+
+body {
+    background-color: #8bdfb7;
+}
+
+header {
+    max-width: 100%;
+    font-family: Arial, Helvetica, sans-serif;
+    color: white;
+    text-align: center;
+    padding: 60px 0px 0px 0px;
+    background-image: linear-gradient(to bottom, rgb(98, 236, 190), #3ec787, rgb(8, 99, 53));
+}
+
+.titulo1 {
+    font-size: 40px;
+    font-family:Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    text-shadow: 1px 2px 4px rgba(0, 0, 0, 0.541);
+}
+
+.mensagem {
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    font-size: 20px;
+    text-align: center;
+    margin: 40px auto 20px auto;
+    text-shadow: 1px 2px 4px rgba(0, 0, 0, 0.541);
+    padding: 10px;
+}
+
+nav {
+    text-align: left;
+    width: auto;
+    margin: 38px 0px 0px 0px;
+}
+
+nav a:hover {
+    background-color: #54b385;
+    border-radius: 5px;
+}
+
+li {
+    display: inline-block;
+    padding: 10px;
+}
+
+nav a {
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    text-decoration: none;
+    color: white;
+    font-weight: bold;
+    padding: 10px
+}
+
+main {
+    background-color: white;
+    max-width: 970px;
+    margin: auto;
+    padding: 20px;
+}
+
+.titulo2 {
+    font-family: IDroid , sans-serif;
+    color: #04462e;
+}
+
+p {
+    font-family: 'Libre Baskerville', serif;
+    text-indent: 20px;
+    text-align: justify;
+    padding: 10px 0px;
+}
+
+
+.titulo3 {
+    font-family: IDroid, sans-serif;
+    background-color: #03990342;
+    color: #04462e;
+    padding: 0px 10px;
+}
+
+.pverde {
+    color: #138a5e;
+    font-weight: bold;
+}
+
+p > a {
+    text-decoration: none;
+}
+
+.android {
+    width: auto;
+    margin: auto;
+    display: block;   
+}
+
+iframe {
+    display: block;
+    max-width: 100%;
+    margin: auto; 
+}
+
+.fundov {
+    background-color: #04462e;
+    padding: 20px;
+    width: 100%;
+    transform: translateX(-20px);
+    box-sizing: content-box;
+}
+
+.tabela {
+    padding: 40px 20px 40px 20px;
+    background-color: #a2d6bdc4;
+    position:relative;
+    margin-top: 20px;
+    border-radius: 10px;
+    
+}
+
+
+.tabela > h3 {
+    background-color: #20744d;
+    color: white;
+    padding: 10px;
+    display: block;
+    position: absolute;
+    width: 100%;
+    box-sizing: border-box;
+    top: 0px;
+    left: 0px;
+    border-radius: 10px 10px 0px 0px;
+}
+
+.tabela  ul {
+    width: 80%;
+    display: flex;
+    gap: 20px;
+    justify-content: space-between;
+}
+
+.tabela li {
+    font-family: 'Libre Baskerville', serif;
+    display: block;
+}
+
+.tabela span {
+    text-decoration: underline;
+}
+
+footer {
+    font-size: 13px;
+}
+
+footer p {
+    font-style: italic;
+    background-color: #04462e;
+    color: white;
+    text-align: center;
+}
+
+.tabela .semlinha {
+    text-decoration: none;
+}
+
+@media (max-width:600px) {
+    .tabela ul {
+        flex-direction: column;
+        gap: 0px;
+        width: 100%;
+    }
+}
+
+@media (max-width:400px) {
+    .titulo2 {
+        font-size: 25px;
+        text-align: center;
+    
+    }
+
+    li {
+        display: block;
+        text-align: center;
+    }
+
+    header {
+        padding-bottom: 20px;
+    }
+
+    .titulo3 {
+        font-size: 21px;
+    }
+}
+
+
+
+
